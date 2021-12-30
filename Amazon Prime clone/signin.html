@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="logo2">
+            <img src="/image/download2.png" alt="">
+        </div>
+        <form  action="index.html" name="amazon-form" class="form" method="" onsubmit="return validation()">
+            <h2>Sign-In</h2>
+
+            <label for="Email or Mobile Number" class="label1">Email or mobile phone number</label>
+            <input type="email" name="email-id" class="psw1" id="email"><br>
+            <div id="email-error"><img src="/image/cancel.png">Enter your email and mobile phone number</div>
+           
+            <label for="Password" class="label2">Password</label>
+            <a href="#" class="forget-psw" id="forgot">Forgot your password?</a><br>
+            <input type="password" name="pass" class="psw2" id="password"><br>
+            <div id="pass-error"><img src="/image/cancel.png">Enter your password</div> 
+            
+            <input type="submit" value="Sign-In" id="btn">
+            
+            <p>By continuing, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice.</a></p>
+           
+            <input type="checkbox" class="check">
+            <span>Keep me signed in. <a href="#">Details</a> </span>
+
+            <hr class="hr-one">
+            <span class="new-acc">New to Amazon?</span>
+            <hr class="hr-two">
+
+            <input type="submit" value="Create your Amazon account" id="btn2">
+        </form>
+    </div>
+    
+    <!--footer part-->
+    <div class="policy">
+            <div>
+                <a href="#" id="condition"> Conditions of Use</a>
+                <a href="#" id="priacy"> Privacy Notice </a>
+                <a href="#" id="help2">Help</a>
+                <span>© 1996-2021, Amazon.com, Inc. or its affiliates</span>
+            </div>
+        </div>
+<script src="/prime.js"></script>
+</body>
+</html>
